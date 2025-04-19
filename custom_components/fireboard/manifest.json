@@ -1,0 +1,13 @@
+{
+    "domain": "fireboard",
+    "name": "FireBoard",
+    "documentation": "https://github.com/blackpearl-git/ha-fireboard",
+    "issue_tracker": "https://github.com/blackpearl-git/ha-fireboard/issues",
+    "dependencies": [],
+    "codeowners": ["@blackpearl-git"],
+    "requirements": ["aiohttp>=3.8.0"],
+    "config_flow": true,
+    "iot_class": "cloud_polling",
+    "version": "1.0.0",
+    "hacs": "default"
+} 
