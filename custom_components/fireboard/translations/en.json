@@ -1,0 +1,39 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                },
+                "description": "Please enter your FireBoard credentials.",
+                "title": "FireBoard"
+            }
+        },
+        "error": {
+            "invalid_auth": "Invalid authentication",
+            "cannot_connect": "Failed to connect",
+            "drive_error": "Failed to control Drive"
+        },
+        "abort": {
+            "already_configured": "Device is already configured"
+        }
+    },
+    "entity": {
+        "number": {
+            "drive_output": {
+                "name": "Drive Output",
+                "state_attributes": {
+                    "mode": {
+                        "name": "Mode",
+                        "state": {
+                            "manual": "Manual",
+                            "auto": "Automatic",
+                            "off": "Off"
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
